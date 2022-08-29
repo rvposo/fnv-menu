@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: 'Monofonto';
+    src: url('fonts/monofonto rg.otf') format('opentype');
+    
+}
+
+  * {
+    box-sizing: border-box;
+    font-family: 'Monofonto';
+    list-style-type: none;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  /* Text Colors */
+  ol li, a {
+    color: #ffb742;
+    text-shadow: -0px -0px 4px black;
+    padding: 10px;
+    /* padding-left: 10px; */
+    text-align: end;
+    
+  }
+
+  /* Text Hover */
+  ol li:hover {
+    border-style: solid;
+    /* padding: 10px; */
+    border-width: 2px;
+    width: 15em;
+    padding: 8px;
+    background-color: #A16600;
+    
+  }
+ 
+  div {
+    display: flex; 
+    justify-content: flex-end;
+    margin-top: 11em;
+  }
+
+  img {
+    margin-right: 36em;
+    height: 15%;
+    width: 30%;
+    position: fixed;
+    
+  }
